@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Layout } from 'react-mdl';
 
-class Landingpage extends Component {
+class LandingPage extends Component {
     render () {
         return (
             <div>
@@ -11,4 +10,4 @@ class Landingpage extends Component {
     }
 }
 
-export default Landingpage;
+export default LandingPage;
