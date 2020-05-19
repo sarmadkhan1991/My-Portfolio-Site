@@ -4,6 +4,10 @@
   background: linear-gradient(to right, #8e44ad, #c0392b); 
 }
 
+.projects-grid {
+  display: flex;
+}
+
 .landing-grid {
   background: #c0392b; 
   background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  
