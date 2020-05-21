@@ -1,7 +1,8 @@
 .header-color {
-  background: #c0392b; 
-  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  
-  background: linear-gradient(to right, #8e44ad, #c0392b); 
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .projects-grid {
@@ -9,9 +10,10 @@
 }
 
 .landing-grid {
-  background: #c0392b; 
-  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  
-  background: linear-gradient(to right, #8e44ad, #c0392b); 
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
   position: fixed;
   top: 0;
@@ -39,17 +41,17 @@
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: rgb(143, 67, 170);
+  color: white;
 }
 
 .banner-text hr {
-  border-top: 5px dotted rgb(143, 67, 170);
+  border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: rgb(143, 67, 170);
+  color: white;
   font-size: 20px;
   padding: 1em;
 }
@@ -62,7 +64,7 @@
 }
 
 .social-links i {
-  color: rgb(143, 67, 170);
+  color: white;
   font-size: 5em;
   padding: 8px;
 }
