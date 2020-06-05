@@ -23,18 +23,13 @@ class LandingPage extends Component {
                             <div className="social-links">
 
                                 {/* LinkedIn */}
-                                <a href="http://google.com" rel="noopener noreferrer"  target="_blank">
+                                <a href="https://www.linkedin.com/in/sarmad-khan-584447156/" rel="noopener noreferrer"  target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                                 </a>
 
                                 {/* Github */}
-                                <a href="http://google.com" rel="noopener noreferrer"  target="_blank">
+                                <a href="https://github.com/sarmadkhan1991" rel="noopener noreferrer"  target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
-                                </a>
-
-                                {/* YouTube */}
-                                <a href="http://google.com" rel="noopener noreferrer"  target="_blank">
-                                    <i className="fa fa-youtube-square" aria-hidden="true" />
                                 </a>
 
                             </div>
