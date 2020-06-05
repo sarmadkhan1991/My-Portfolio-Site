@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Sirmud from './Portfolio-pic.png';
+
 
 class LandingPage extends Component {
     render () {
@@ -9,7 +9,7 @@ class LandingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src={Sirmud}
+                            src='https://sarmad-khan-portfolio.s3-us-west-1.amazonaws.com/Portfolio-pic.png'
                             alt='headShot'
                             className='headShot-img'
                         />
@@ -18,7 +18,7 @@ class LandingPage extends Component {
 
                             <hr />
 
-                            <p>HTML5/CSS | NodeJS | JavaScript | ReactJS | Express | </p>
+                            <p>HTML5/CSS | NodeJS | JavaScript | ReactJS | Express | Redux | PostgreSQL</p>
 
                             <div className="social-links">
 

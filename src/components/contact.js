@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import Sirmud from './Portfolio-pic.png';
 
 class Contact extends Component {
     render () {
@@ -10,7 +9,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Sarmad Khan</h2>
                         <img 
-                            src={Sirmud} 
+                            src='https://sarmad-khan-portfolio.s3-us-west-1.amazonaws.com/Portfolio-pic.png' 
                             alt='avatar'
                             style={{ height: '250px', borderRadius: '10px' }}
                         />
