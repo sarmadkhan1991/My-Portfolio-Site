@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import './landingpage.css';
 
 
 class LandingPage extends Component {
