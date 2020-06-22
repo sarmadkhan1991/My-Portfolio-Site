@@ -14,59 +14,56 @@ class Projects extends Component {
             return (
                 <div className='projects-grid'>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{backgroundColor: 'black', color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #1</CardTitle>
+                        <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #1</CardTitle>
                             <CardText>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                             </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                            <CardMenu style={{color: '#fff'}}>
+                            <CardMenu style={{color: 'black'}}>
                                 <IconButton name='share'/>
                             </CardMenu>
                     </Card>
 
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{backgroundColor: 'black', color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #2</CardTitle>
+                        <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #2</CardTitle>
                             <CardText>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                             </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                            <CardMenu style={{color: '#fff'}}>
+                            <CardMenu style={{color: 'black'}}>
                                 <IconButton name='share'/>
                             </CardMenu>
                     </Card>
 
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{backgroundColor: 'black', color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #3</CardTitle>
+                        <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #3</CardTitle>
                             <CardText>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                             </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                            <CardMenu style={{color: '#fff'}}>
+                            <CardMenu style={{color: 'black'}}>
                                 <IconButton name='share'/>
                             </CardMenu>
                     </Card>
                 </div>
             )
-        } else if (this.state.activeTab === 1){
-            return (
-                <div><h1>This is Angular</h1></div>
-            )
-        } else if (this.state.activeTab === 2) {
-            return (
-                <div><h1>This is MongoDB</h1></div>
-            )
+        // } else if (this.state.activeTab === 1){
+        //     return (
+        //         <div><h1>This is Angular</h1></div>
+        //     )
+        // } else if (this.state.activeTab === 2) {
+        //     return (
+        //         <div><h1>This is MongoDB</h1></div>
+        //     )
         }
     }
 
@@ -75,8 +72,8 @@ class Projects extends Component {
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>React</Tab>
-                    <Tab>Angular</Tab>
-                    <Tab>MongoDB</Tab>
+                    {/* <Tab>Angular</Tab>
+                    <Tab>MongoDB</Tab> */}
                 </Tabs>
 
                 <Grid>
