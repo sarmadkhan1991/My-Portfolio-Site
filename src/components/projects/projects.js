@@ -12,48 +12,67 @@ class Projects extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0){
             return (
-                <div className='projects-grid'>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #1</CardTitle>
-                            <CardText>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                            <CardMenu style={{color: 'black'}}>
-                                <IconButton name='share'/>
-                            </CardMenu>
-                    </Card>
+                <div>
+                    <div className='projects-grid'>
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #1</CardTitle>
+                                <CardText>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                </CardText>
+                            <CardActions border>
+                                <Button colored>GitHub</Button>
+                                <Button colored>Live Demo</Button>
+                            </CardActions>
+                                <CardMenu style={{color: 'black'}}>
+                                    <IconButton name='share'/>
+                                </CardMenu>
+                        </Card>
 
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #2</CardTitle>
-                            <CardText>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                            <CardMenu style={{color: 'black'}}>
-                                <IconButton name='share'/>
-                            </CardMenu>
-                    </Card>
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #2</CardTitle>
+                                <CardText>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                </CardText>
+                            <CardActions border>
+                                <Button colored>GitHub</Button>
+                                <Button colored>Live Demo</Button>
+                            </CardActions>
+                                <CardMenu style={{color: 'black'}}>
+                                    <IconButton name='share'/>
+                                </CardMenu>
+                        </Card>
 
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #3</CardTitle>
-                            <CardText>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                            <CardMenu style={{color: 'black'}}>
-                                <IconButton name='share'/>
-                            </CardMenu>
-                    </Card>
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #3</CardTitle>
+                                <CardText>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                </CardText>
+                            <CardActions border>
+                                <Button colored>GitHub</Button>
+                                <Button colored>Live Demo</Button>
+                            </CardActions>
+                                <CardMenu style={{color: 'black'}}>
+                                    <IconButton name='share'/>
+                                </CardMenu>
+                        </Card>
+                        
+                    </div>
+
+                    <div className="projects-grid">
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #3</CardTitle>
+                                <CardText>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                </CardText>
+                            <CardActions border>
+                                <Button colored>GitHub</Button>
+                                <Button colored>Live Demo</Button>
+                            </CardActions>
+                                <CardMenu style={{color: 'black'}}>
+                                    <IconButton name='share'/>
+                                </CardMenu>
+                        </Card>
+                    </div>
                 </div>
             )
         // } else if (this.state.activeTab === 1){
