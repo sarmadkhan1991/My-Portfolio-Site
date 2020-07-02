@@ -60,7 +60,7 @@ class Projects extends Component {
 
                     <div className="projects-grid">
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>City Guide</CardTitle>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://sarmad-khan-portfolio.s3-us-west-1.amazonaws.com/city-guide.jpg) center / cover'}}>City Guide</CardTitle>
                                 <CardText>
                                     Static city guide app which is showcasing some of my favorite spots in Phoenix. App is highlighting CSS styling skills. - Hosted using AWS Amplify
                                 </CardText>
