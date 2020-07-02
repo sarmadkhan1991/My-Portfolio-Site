@@ -15,13 +15,13 @@ class Projects extends Component {
                 <div>
                     <div className='projects-grid'>
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #1</CardTitle>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://sarmad-khan-portfolio.s3-us-west-1.amazonaws.com/CAA.jpg) center / cover'}}>Chugging Across America</CardTitle>
                                 <CardText>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                    Full Stack Web App, developed using Google maps API, weather API and a third party Brewery API. Group project at Dev Mountain.
                                 </CardText>
                             <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button colored>Live Demo</Button>
+                                <Button colored><a href="https://github.com/sarmadkhan1991/chugging-across-america" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                                <Button colored><a href="https://chuggingcrossamerica.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                             </CardActions>
                                 <CardMenu style={{color: 'black'}}>
                                     <IconButton name='share'/>
@@ -29,13 +29,13 @@ class Projects extends Component {
                         </Card>
 
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #2</CardTitle>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://sarmad-khan-portfolio.s3-us-west-1.amazonaws.com/sirmud-landingPage.jpg) center / cover'}}>sirmud.net</CardTitle>
                                 <CardText>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                    First full stack project. Personal artist website. Hosted on Digital Ocean. Checkout the live version!
                                 </CardText>
                             <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button colored>Live Demo</Button>
+                                <Button colored><a href="https://github.com/sarmadkhan1991/personal-project-sk" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                                <Button colored><a href="https://sirmud.net/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                             </CardActions>
                                 <CardMenu style={{color: 'black'}}>
                                     <IconButton name='share'/>
@@ -43,13 +43,13 @@ class Projects extends Component {
                         </Card>
 
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #3</CardTitle>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://sarmad-khan-portfolio.s3-us-west-1.amazonaws.com/Bear-mapsLanding.png) center / cover'}}>Bear Maps</CardTitle>
                                 <CardText>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                    Bear spotting app, developed using google maps geocoding API. Click on the map to report bear sightings! - Hosted using AWS Amplify.
                                 </CardText>
                             <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button colored>Live Demo</Button>
+                                <Button colored><a href="https://github.com/sarmadkhan1991/bear-maps" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                                <Button colored><a href="https://master.d3p5o8pdt2s7r4.amplifyapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                             </CardActions>
                                 <CardMenu style={{color: 'black'}}>
                                     <IconButton name='share'/>
@@ -60,13 +60,13 @@ class Projects extends Component {
 
                     <div className="projects-grid">
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #3</CardTitle>
+                            <CardTitle style={{backgroundColor: 'black', color: 'black', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>City Guide</CardTitle>
                                 <CardText>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                    Static city guide app which is showcasing some of my favorite spots in Phoenix. App is highlighting CSS styling skills. - Hosted using AWS Amplify
                                 </CardText>
                             <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button colored>Live Demo</Button>
+                                <Button colored><a href="https://github.com/sarmadkhan1991/city-guide-app" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                                <Button colored><a href="https://master.ddi7otmkvn0b7.amplifyapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                             </CardActions>
                                 <CardMenu style={{color: 'black'}}>
                                     <IconButton name='share'/>

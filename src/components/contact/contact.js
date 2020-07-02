@@ -15,7 +15,7 @@ class Contact extends Component {
                             style={{ height: '250px', borderRadius: '10px' }}
                         />
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            Hello there! Thanks for taking the time to check out my portfolio as a Full Stack Web Developer. My name is Sarmad and I developed a passion for coding sometime around the fall of 2018. Ever since then I have attended and completed a 13 week immersive coding bootcamp and I have been learning on my own as well. I am sure that the skills that I learned there will help me in the coming future which is going to be dictated by these exciting technologies. Feel free to reach out if something caught your attention on here. Take care, thanks! 
                         </p>
                     </Cell>
                     <Cell col={6}>

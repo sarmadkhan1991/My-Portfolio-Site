@@ -19,7 +19,7 @@ class LandingPage extends Component {
 
                             <hr />
 
-                            <p>HTML5/CSS | NodeJS | JavaScript | ReactJS | Express | Redux | PostgreSQL</p>
+                            <p>HTML5/CSS | NodeJS | JavaScript | ReactJS | Express | Redux | PostgreSQL | Next.js | MassiveDB</p>
 
                             <div className="social-links">
 
